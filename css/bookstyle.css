@@ -1,0 +1,85 @@
+.card {
+  
+  position: absolute;
+  left: 10%;
+  top: 10%;
+    width: 80%;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #e7edf0;
+    border: #a570e1 3px solid;
+  }
+  
+  .card img {
+      
+  position: absolute;
+  left: 70%;
+  top: 10%;
+    float: left;
+    width: 25%;
+    height: 70%;
+    border-radius: 20px;
+    border: #a570e1 4px dashed;
+  }
+
+  .card-div{
+    float: left;
+    width: 65%;
+    height: 70%;
+    background-color: #e7edf0;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+   
+    font-family: 'Rabar21';
+ 
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+   
+    position: absolute;
+    left: 35%;
+    top: 85%;
+    float: left;
+       clear: both;
+        width: 30%;
+        height: 10%;
+ 
+    background-color: #802be2;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Rabar21';
+    font-size: 20px;
+    border: none;
+    border: #f0f0f0 2px solid;
+  }
+  
+  .btn-primary:hover {
+    transition: ease-in-out 0.3s;
+    background-color: #ffffff;
+    color: #802be2;
+    border: #802be2 1px solid;
+  }
+  
+  @font-face {
+    font-family: 'Rabar21';
+    src: url('../fonts/Rabar21.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

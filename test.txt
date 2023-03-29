@@ -1,0 +1,17 @@
+<?php
+    $select='SELECT * from library.book';
+    $query = mysqli_query($connection, $select);
+
+    while ($row = mysqli_fetch_assoc($query)) {
+    ?>
+           <div class="col  space-between"><a href="kteb.html">
+           <?php echo '<img src="data:image;base64,' . base64_encode($row['img']) . '"class="img"  height=280 >' ?>
+            
+            <br><br><h4> <?php echo $row['title'] ?>
+</h4></div>
+
+    <?php }
+
+    ?>
+
+   
